@@ -47,6 +47,7 @@ h5 {
     background-color: rgb(25, 33, 41);
     text-align: center;
     padding: 14px 0px;
+    height: 40px;
 }
 .nav-bar-item {
     color: white;
@@ -60,9 +61,13 @@ h5 {
     background-size: cover;
     height: 650px;
     padding-top: 50px;
+    position: relative;
 }
 .quote {
     font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 25vh;
 }
 .dark-background {
     background-color: rgb(25, 33, 41);
@@ -73,6 +78,7 @@ h5 {
     font-weight: 100;
     text-align: center;
     margin: 20px 0px;
+       
 }
 .link-btn {
     background-color: rgb(67, 163, 230);
@@ -81,6 +87,11 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+    display: block;
+    width: 150px;
+    margin: 40px auto 0;
+    padding: 14px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 .service-box {
     font-size: 1.7em;
@@ -97,20 +108,26 @@ h5 {
     width: 125px;
 }
 #team .section-text {
-    font-size: 1.9em;
+    font-size: 2em;
     text-align: center;
     width: 60%;
     margin: 10px auto;
 }
 #team .member-name {
+    
     font-size: 1.5em;
     font-weight: 700;
+    display: block;
+    text-align: center;
 }
+
 .footer {
     text-align: center;
     font-size: 1.9em;
-    padding: 0px 100px;
+    padding: 0px 10px;
     margin-bottom: 25px;
+    line-height: 1.5;
+    
 }
 .adress {
     font-style: normal;
@@ -128,6 +145,8 @@ h5 {
 .nav-bar-li {
     list-style-type: none;
     text-align: center;
+    float: left;
+    width: 33%;
 }
 .container {
     width: 1200px;
@@ -137,4 +156,24 @@ h5 {
 #team hr {
     margin: 20px auto 30px;
     width: 40%;
+}
+footer ul li {
+    list-style-type: none;
+}
+.col {
+    float: left;
+}
+.col-3 {
+    width: 30%;
+}
+.col-middle {
+    margin: 0 5%;
+}
+.clearfix {
+    clear: both;
+}
+.map-frame {
+    height: 285px;
+    float: right;
+    width: 60%;
 }
